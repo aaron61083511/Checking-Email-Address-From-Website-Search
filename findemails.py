@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import time
 
-data = pd.read_csv('/Users/aaron/Desktop/Rice University/FEP/custodial and ground/February 25/GROUNDS Survey Data 01312019.csv')
+data = pd.read_csv('~Data.csv')
 target = data['REQOR_FIRST_NAME'] + '+' + data['REQOR_LAST_NAME']
 
 email_list = []
